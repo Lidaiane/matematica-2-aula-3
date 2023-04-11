@@ -1,3 +1,17 @@
-header {
-    background-color: #129930;
+.cabeçalho {  
+    background-color: blue;
+    color:beige;
+display: flex;
+justify-content: space-around;
+align-items: center;
+margin: 24px 0;
+}
+
+.cabeçalho-imagem{
+    width: 30%;
+}
+.cabeçalho-item-lista{
+    display: inline-block;
+    margin: 0 16px;
+    font-size: 24px;
 }
